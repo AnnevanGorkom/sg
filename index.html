@@ -17,8 +17,8 @@
 				//   the width/height of the app and the element to use.
 				var myApp = new ximpel.XimpelApp(
 					'ximpelapp',
-					'playlist.xml', 
-					'config.xml', 
+					'playlist.xml',
+					'config.xml',
 					{'appElement': 'ximpel',
 					 'appWidth': '640px',
 					 'appHeight': '360px'
@@ -29,20 +29,20 @@
 				myApp.load( {
 					'autoPlay': false
 				}).done( function(){
-					// This function is executed once the ximpel app has finished loading the playlist 
-					// and config file and has been fully initialized (ie its ready to play or it is 
+					// This function is executed once the ximpel app has finished loading the playlist
+					// and config file and has been fully initialized (ie its ready to play or it is
 					// already playing if autoplay was set to true). This function can be used to interact
 					// with the ximpel app using external javascript.
 					var player = myApp.ximpelPlayer;
-					
+
 					// Init score display
 					var showScore = player.getConfigProperty('showScore');
-					
+
 					if (showScore){
 						$('.scoreContainer').show();
 						$('#scoreA').text(0);
 						// Add more score initializations here
-						
+
 						player.addEventHandler( 'variable_updated', function( variableId ){
 							$('#scoreA').text( player.getVariable( variableId ) );
 							// Add more scores to be updated here
@@ -57,11 +57,14 @@
 	</head>
 
 	<body>
+
+		<h1>Welcome to 'A Knight to Remember'</h1>
+
 		<div id="ximpel">
 			<div class="scoreContainer">
 				<div class="score">Score: <span id="scoreA"></span></div>
 				<!-- Add more score containers here -->
 			</div>
 		</div>
-	</body> 
+	</body>
 </html>
