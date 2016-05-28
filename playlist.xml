@@ -10,9 +10,24 @@
             </media>
         </subject>
 
-        <subject id="intro" leadsTo="room1">
+        <subject id="intro" leadsTo="instructions">
             <media>
                 <youtube id="vePcmdzM5Yk" mute="true" startTime="37" duration="5"/>
+            </media>
+        </subject>
+        
+        <subject id="instructions" leadsTo="room1">
+            <media>
+              <image src="media/instructions.png">
+                 <overlay leadsTo="room1" startTime="0" text="Welcome to the castle." textColor="black" alpha="0" hoverAlpha="0" x="20px" y="50px" width="1950px" height="100px" backgroundColor="black" /> <!-- Question -->
+                  <overlay leadsTo="room1" startTime="0" text="To advance to the top floor you have to solve a problem at each floor." textColor="black" alpha="0" hoverAlpha="0" x="20px" y="150px" width="1950px" height="100px" backgroundColor="black" /> <!-- Question -->
+                    <overlay leadsTo="room1" startTime="0" text="Click the corresponding door to get to the next floor." textColor="black" alpha="0" hoverAlpha="0" x="20px" y="250px" width="1950px" height="100px" backgroundColor="black" /> <!-- Question -->
+                      <overlay leadsTo="room1" startTime="0" text=" When you click the wrong door, you have to start all over again." textColor="black" alpha="0" hoverAlpha="0" x="20px" y="350px" width="1950px" height="100px" backgroundColor="black" /> <!-- Question -->
+                        <overlay leadsTo="room1" startTime="0" text="At the top of the castle you will fight the dragon." textColor="black" alpha="0" hoverAlpha="0" x="20px" y="450px" width="1950px" height="100px" backgroundColor="black" /> <!-- Question -->
+                          <overlay leadsTo="room1" startTime="0" text="Here you have limited time to solve the problems, so be quick!" textColor="black" alpha="0" hoverAlpha="0" x="20px" y="550px" width="1950px" height="100px" backgroundColor="black" /> <!-- Question -->
+                          <overlay leadsTo="room1" startTime="0" text="Good luck defeating the dragon!" textColor="black" alpha="0" hoverAlpha="0" x="20px" y="650px" width="1950px" height="100px" backgroundColor="black" /> <!-- Question -->
+                         
+              </image>
             </media>
         </subject>
 
