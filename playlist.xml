@@ -142,7 +142,7 @@
             <media>
               <video>
                 <source file="media/draak" extensions="mp4"/>
-                  <overlay startTime="0" text="Which equation results in this number: 36" textColor="black" alpha="0" hoverAlpha="0" x="10px" y="5px" width="1060px" height="100px" />
+                  <overlay startTime="0" text="Which equation results in this number: 36" textColor="black" alpha="1" hoverAlpha="1" x="0px" y="40px" width="1950px" height="100px" backgroundColor="white" />
                   <overlay leadsTo="gameover" startTime="0" text="12+21" shape="circle" textColor="black" x="355px" y="135px" width="160px" height="100px" /> <!-- Answer 1 -->
                   <overlay leadsTo="draak2" startTime="0" text="6x6" shape="circle" textColor="black" x="655px" y="135px" width="160px" height="100px" /> <!-- Answer 2 -->
                   <overlay leadsTo="gameover" startTime="0" text="41-7" shape="circle" textColor="black" x="955px" y="135px" width="160px" height="100px" /> <!-- Answer 3 -->
@@ -156,7 +156,7 @@
             <media>
               <video>
                 <source file="media/draak" extensions="mp4"/>
-                  <overlay startTime="0" text="Which equation results in this number: 21" textColor="black" alpha="0" hoverAlpha="0" x="10px" y="5px" width="1060px" height="100px" />
+                  <overlay startTime="0" text="Which equation results in this number: 21" textColor="black" alpha="1" hoverAlpha="1" x="0px" y="40px" width="1950px" height="100px" backgroundColor="white" />
                   <overlay leadsTo="gameover" startTime="0" text="4x5" shape="circle" textColor="black" x="355px" y="135px" width="160px" height="100px" /> <!-- Answer 1 -->
                   <overlay leadsTo="gameover" startTime="0" text="34-16" shape="circle" textColor="black" x="655px" y="135px" width="160px" height="100px" /> <!-- Answer 2 -->
                   <overlay leadsTo="gameover" startTime="0" text="7+19" shape="circle" textColor="black" x="955px" y="135px" width="160px" height="100px" /> <!-- Answer 3 -->
@@ -170,7 +170,7 @@
             <media>
               <video>
                 <source file="media/draak" extensions="mp4"/>
-                  <overlay startTime="0" text="Which equation results in this number: 23" textColor="black" alpha="0" hoverAlpha="0" x="10px" y="5px" width="1060px" height="100px" />
+                  <overlay startTime="0" text="Which equation results in this number: 23" textColor="black" alpha="1" hoverAlpha="1" x="0px" y="40px" width="1950px" height="100px" backgroundColor="white" />
                   <overlay leadsTo="gameover" startTime="0" text="8x3" shape="circle" textColor="black" x="355px" y="135px" width="160px" height="100px" /> <!-- Answer 1 -->
                   <overlay leadsTo="gameover" startTime="0" text="43-21" shape="circle" textColor="black" x="655px" y="135px" width="160px" height="100px" /> <!-- Answer 2 -->
                   <overlay leadsTo="gameover" startTime="0" text="9x2" shape="circle" textColor="black" x="955px" y="135px" width="160px" height="100px" /> <!-- Answer 3 -->
@@ -184,7 +184,7 @@
             <media>
               <video>
                 <source file="media/draak" extensions="mp4"/>
-                  <overlay startTime="0" text="Which equation results in this number: 54" textColor="black" alpha="0" hoverAlpha="0" x="10px" y="5px" width="1060px" height="100px" />
+                  <overlay startTime="0" text="Which equation results in this number: 54" textColor="black" alpha="1" hoverAlpha="1" x="0px" y="40px" width="1950px" height="100px" backgroundColor="white" />
                   <overlay leadsTo="winner" startTime="0" text="9x6" shape="circle" textColor="black" x="355px" y="135px" width="160px" height="100px" /> <!-- Answer 1 -->
                   <overlay leadsTo="gameover" startTime="0" text="71-21" shape="circle" textColor="black" x="655px" y="135px" width="160px" height="100px" /> <!-- Answer 2 -->
                   <overlay leadsTo="gameover" startTime="0" text="22+33" shape="circle" textColor="black" x="955px" y="135px" width="160px" height="100px" /> <!-- Answer 3 -->
