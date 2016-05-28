@@ -2,7 +2,7 @@ h1 {
   margin-left: auto;
   text-align: center;
   font-family: sans-serif;
-  color: #329999;
+  color: #4ca6a6;
 }
 
 /* This class can be assigned to an element so that no tecxt-highlting is possible on it. (to prevent accidental selections). */
@@ -33,7 +33,7 @@ h1 {
     border: 0;
 }
 .ximpelWrapper{
-    background-color: red;
+    background-color: black;
 }
 /* Default styling for the main ximpel player element */
 .ximpelPlayer{
