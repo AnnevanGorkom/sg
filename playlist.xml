@@ -1,0 +1,177 @@
+<ximpel>
+    <playlist>
+
+        <subject id="begin" leadsTo="room1">
+          <description>Start of the game</description>
+            <media>
+              <image src="media/begin.png" >
+                 <overlay startTime="0" leadsTo="intro" text= "Start" textColor="black" alpha="6" shape="circle" x="1180px" y="640px" width="150px" height="150px" backgroundColor="red" />
+              </image>
+            </media>
+        </subject>
+
+        <subject id="intro" leadsTo="room1">
+            <media>
+                <youtube id="vePcmdzM5Yk" mute="true" startTime="37" duration="5"/>
+            </media>
+        </subject>
+
+        <subject id="room1" leadsTo="room2">
+          <description>First Floor</description>
+            <media>
+              <image src="media/room1.png" backgroundColor="#000000">
+                <overlay startTime="0" text="What equation results in the number 5?" textColor="black" alpha="0" hoverAlpha="0" x="10px" y="25px" width="950px" height="100px" backgroundColor="black" /> <!-- Question -->
+                <overlay startTime="0" text="Floor 1" textColor="black" alpha="0" hoverAlpha="0" x="1700px" y="25px" width="190px" height="100px" backgroundColor="black" /> <!-- Floor number -->
+                <overlay leadsTo="gameover" startTime="0" text="11-7" textColor="black" alpha="0" hoverAlpha="0" x="455px" y="220px" width="160px" height="100px" backgroundColor="black" /> <!-- Answer 1 -->
+                <overlay leadsTo="gameover" alpha="0" hoverAlpha="0" startTime="0" x="400px" y="370px" width="260px" height="500px" backgroundColor="black" /> <!-- Door 1 -->
+                <overlay leadsTo="gameover" startTime="0" alpha="0" hoverAlpha="0" textColor="black" text="22-11" x="870px" y="220px" width="160px" height="100px" backgroundColor="black" /> <!-- Answer 2 -->
+                <overlay leadsTo="gameover" alpha="0" hoverAlpha="0" startTime="0" x="820px" y="370px" width="260px" height="500px" backgroundColor="black" /> <!-- Door 2 -->
+                <overlay leadsTo="stairs1" startTime="0" alpha="0" hoverAlpha="0" textColor="black" text="7-2" x="1290px" y="220px" width="160px" height="100px" backgroundColor="black" /><!-- Answer 3 -->
+                <overlay leadsTo="stairs1" alpha="0" hoverAlpha="0" startTime="0" x="1245x" y="370px" width="260px" height="500px" backgroundColor="black" /> <!-- Door 3 -->
+              </image>
+            </media>
+        </subject>
+
+        <subject id="stairs1" leadsTo="room2">
+          <media>
+            <youtube id="GVgo9clPB90" mute="true" startTime="517" duration="3.5"/>
+          </media>
+        </subject>
+
+        <subject id="room2" leadsTo="room3">
+          <description>Second Floor</description>
+            <media>
+              <image src="media/room2.png" backgroundColor="#000000">
+                <overlay startTime="0" text="What equation results in the number 12?" textColor="black" alpha="0" hoverAlpha="0" x="10px" y="25px" width="970px" height="100px" backgroundColor="black" /> <!-- Question -->
+                <overlay startTime="0" text="Floor 2" textColor="black" alpha="0" hoverAlpha="0" x="1700px" y="25px" width="190px" height="100px" backgroundColor="black" /> <!-- Floor number -->
+                <overlay leadsTo="gameover" startTime="0" text="7+3" textColor="black" alpha="0" hoverAlpha="0" x="455px" y="220px" width="160px" height="100px" backgroundColor="black" /> <!-- Answer 1 -->
+                <overlay leadsTo="gameover" alpha="0" hoverAlpha="0" startTime="0" x="400px" y="370px" width="260px" height="500px" backgroundColor="black" /> <!-- Door 1 -->
+                <overlay leadsTo="stairs2" startTime="0" alpha="0" hoverAlpha="0" textColor="black" text="4+8" x="870px" y="220px" width="160px" height="100px" backgroundColor="black" /> <!-- Answer 2 -->
+                <overlay leadsTo="stairs2" alpha="0" hoverAlpha="0" startTime="0" x="820px" y="370px" width="260px" height="500px" backgroundColor="black" /> <!-- Door 2 -->
+                <overlay leadsTo="gameover" startTime="0" alpha="0" hoverAlpha="0" textColor="black" text="6+7" x="1290px" y="220px" width="160px" height="100px" backgroundColor="black" /><!-- Answer 3 -->
+                <overlay leadsTo="gameover" alpha="0" hoverAlpha="0" startTime="0" x="1245x" y="370px" width="260px" height="500px" backgroundColor="black" /> <!-- Door 3 -->
+              </image>
+            </media>
+        </subject>
+
+        <subject id="stairs2" leadsTo="room3">
+          <media>
+            <youtube id="GVgo9clPB90" mute="true" startTime="517" duration="3.5"/>
+          </media>
+        </subject>
+
+        <subject id="room3" leadsTo="room4">
+          <description>Third Floor</description>
+            <media>
+              <image src="media/room3.png" backgroundColor="#000000">
+                <overlay startTime="0" text="What is the result of 3x4?" textColor="black" alpha="0" hoverAlpha="0" x="10px" y="25px" width="660px" height="100px" backgroundColor="black" /> <!-- Question -->
+                <overlay startTime="0" text="Floor 3" textColor="black" alpha="0" hoverAlpha="0" x="1700px" y="25px" width="190px" height="100px" backgroundColor="black" /> <!-- Floor number -->
+                <overlay leadsTo="gameover" startTime="0" text="18" textColor="black" alpha="0" hoverAlpha="0" x="455px" y="220px" width="160px" height="100px" backgroundColor="black" /> <!-- Answer 1 -->
+                <overlay leadsTo="gameover" alpha="0" hoverAlpha="0" startTime="0" x="400px" y="370px" width="260px" height="500px" backgroundColor="black" /> <!-- Door 1 -->
+                <overlay leadsTo="gameover" startTime="0" alpha="0" hoverAlpha="0" textColor="black" text="14" x="870px" y="220px" width="160px" height="100px" backgroundColor="black" /> <!-- Answer 2 -->
+                <overlay leadsTo="gameover" alpha="0" hoverAlpha="0" startTime="0" x="820px" y="370px" width="260px" height="500px" backgroundColor="black" /> <!-- Door 2 -->
+                <overlay leadsTo="stairs3" startTime="0" alpha="0" hoverAlpha="0" textColor="black" text="12" x="1290px" y="220px" width="160px" height="100px" backgroundColor="black" /><!-- Answer 3 -->
+                <overlay leadsTo="stairs3" alpha="0" hoverAlpha="0" startTime="0" x="1245x" y="370px" width="260px" height="500px" backgroundColor="black" /> <!-- Door 3 -->
+              </image>
+            </media>
+        </subject>
+
+        <subject id="stairs3" leadsTo="room4">
+          <media>
+            <youtube id="GVgo9clPB90" mute="true" startTime="517" duration="3.5"/>
+          </media>
+        </subject>
+
+        <subject id="room4" leadsTo="room5">
+          <description>Fourth Floor</description>
+            <media>
+              <image src="media/room4.png" backgroundColor="#000000">
+                <overlay startTime="0" text="Fill in the dots: 21:..=7" textColor="black" alpha="0" hoverAlpha="0" x="10px" y="25px" width="660px" height="100px" backgroundColor="black" /> <!-- Question -->
+                <overlay startTime="0" text="Floor 4" textColor="black" alpha="0" hoverAlpha="0" x="1700px" y="25px" width="190px" height="100px" backgroundColor="black" /> <!-- Floor number -->
+                <overlay leadsTo="stairs4" startTime="0" text="3" textColor="black" alpha="0" hoverAlpha="0" x="455px" y="220px" width="160px" height="100px" backgroundColor="black" /> <!-- Answer 1 -->
+                <overlay leadsTo="stairs4" alpha="0" hoverAlpha="0" startTime="0" x="400px" y="370px" width="260px" height="500px" backgroundColor="black" /> <!-- Door 1 -->
+                <overlay leadsTo="gameover" startTime="0" alpha="0" hoverAlpha="0" textColor="black" text="4" x="870px" y="220px" width="160px" height="100px" backgroundColor="black" /> <!-- Answer 2 -->
+                <overlay leadsTo="gameover" alpha="0" hoverAlpha="0" startTime="0" x="820px" y="370px" width="260px" height="500px" backgroundColor="black" /> <!-- Door 2 -->
+                <overlay leadsTo="gameover" startTime="0" alpha="0" hoverAlpha="0" textColor="black" text="2" x="1290px" y="220px" width="160px" height="100px" backgroundColor="black" /><!-- Answer 3 -->
+                <overlay leadsTo="gameover" alpha="0" hoverAlpha="0" startTime="0" x="1245x" y="370px" width="260px" height="500px" backgroundColor="black" /> <!-- Door 3 -->
+              </image>
+            </media>
+        </subject>
+
+        <subject id="stairs4" leadsTo="draak">
+          <media>
+            <youtube id="GVgo9clPB90" mute="true" startTime="517" duration="3.5"/>
+          </media>
+        </subject>
+
+        <subject id="draak" leadsTo="gameover">
+          <media>
+            <video>
+              <source file="media/draak" extensions="mp4"/>
+                <overlay startTime="0" text="Which equation results in this number: 36" textColor="white" alpha="0" hoverAlpha="0" x="10px" y="5px" width="1060px" height="100px" backgroundColor="black" />
+                <overlay leadsTo="gameover" startTime="0" text="12+21" shape="circle" textColor="black" x="355px" y="135px" width="160px" height="100px" backgroundColor="black" /> <!-- Answer 1 -->
+                <overlay leadsTo="draak2" startTime="0" text="6x6" shape="circle" textColor="black" x="655px" y="135px" width="160px" height="100px" backgroundColor="black" /> <!-- Answer 2 -->
+                <overlay leadsTo="gameover" startTime="0" text="41-7" shape="circle" textColor="black" x="955px" y="135px" width="160px" height="100px" backgroundColor="black" /> <!-- Answer 3 -->
+                <overlay leadsTo="gameover" startTime="0" text="19+12" shape="circle" textColor="black" x="1255px" y="135px" width="160px" height="100px" backgroundColor="black" /> <!-- Answer 4 -->
+            </video>
+          </media>
+        </subject>
+
+        <subject id="draak2" leadsTo="gameover">
+          <media>
+            <video>
+              <source file="media/draak" extensions="mp4"/>
+                <overlay startTime="0" text="Which equation results in this number: 21" textColor="white" alpha="0" hoverAlpha="0" x="10px" y="5px" width="1060px" height="100px" backgroundColor="black" />
+                <overlay leadsTo="gameover" startTime="0" text="4x5" shape="circle" textColor="black" x="355px" y="135px" width="160px" height="100px" backgroundColor="black" /> <!-- Answer 1 -->
+                <overlay leadsTo="gameover" startTime="0" text="34-16" shape="circle" textColor="black" x="655px" y="135px" width="160px" height="100px" backgroundColor="black" /> <!-- Answer 2 -->
+                <overlay leadsTo="gameover" startTime="0" text="7+19" shape="circle" textColor="black" x="955px" y="135px" width="160px" height="100px" backgroundColor="black" /> <!-- Answer 3 -->
+                <overlay leadsTo="draak3" startTime="0" text="3x7" shape="circle" textColor="black" x="1255px" y="135px" width="160px" height="100px" backgroundColor="black" /> <!-- Answer 4 -->
+            </video>
+          </media>
+        </subject>
+
+        <subject id="draak3" leadsTo="gameover">
+          <media>
+            <video>
+              <source file="media/draak" extensions="mp4"/>
+                <overlay startTime="0" text="Which equation results in this number: 23" textColor="white" alpha="0" hoverAlpha="0" x="10px" y="5px" width="1060px" height="100px" backgroundColor="black" />
+                <overlay leadsTo="gameover" startTime="0" text="8x3" shape="circle" textColor="black" x="355px" y="135px" width="160px" height="100px" backgroundColor="black" /> <!-- Answer 1 -->
+                <overlay leadsTo="gameover" startTime="0" text="43-21" shape="circle" textColor="black" x="655px" y="135px" width="160px" height="100px" backgroundColor="black" /> <!-- Answer 2 -->
+                <overlay leadsTo="gameover" startTime="0" text="9x2" shape="circle" textColor="black" x="955px" y="135px" width="160px" height="100px" backgroundColor="black" /> <!-- Answer 3 -->
+                <overlay leadsTo="draak4" startTime="0" text="6+17" shape="circle" textColor="black" x="1255px" y="135px" width="160px" height="100px" backgroundColor="black" /> <!-- Answer 4 -->
+            </video>
+          </media>
+        </subject>
+
+        <subject id="draak4" leadsTo="gameover">
+          <media>
+            <video>
+              <source file="media/draak" extensions="mp4"/>
+                <overlay startTime="0" text="Which equation results in this number: 54" textColor="white" alpha="0" hoverAlpha="0" x="10px" y="5px" width="1060px" height="100px" backgroundColor="black" />
+                <overlay leadsTo="winner" startTime="0" text="9x6" shape="circle" textColor="black" x="355px" y="135px" width="160px" height="100px" backgroundColor="black" /> <!-- Answer 1 -->
+                <overlay leadsTo="gameover" startTime="0" text="71-21" shape="circle" textColor="black" x="655px" y="135px" width="160px" height="100px" backgroundColor="black" /> <!-- Answer 2 -->
+                <overlay leadsTo="gameover" startTime="0" text="22+33" shape="circle" textColor="black" x="955px" y="135px" width="160px" height="100px" backgroundColor="black" /> <!-- Answer 3 -->
+                <overlay leadsTo="gameover" startTime="0" text="8x6" shape="circle" textColor="black" x="1255px" y="135px" width="160px" height="100px" backgroundColor="black" /> <!-- Answer 4 -->
+            </video>
+          </media>
+        </subject>
+
+        <subject id="gameover" leadsTo="begin">
+          <description>Game over</description>
+            <media>
+              <image src="media/gameover.png" leadsTo="begin" duration="5" />
+            </media>
+        </subject>
+
+        <subject id="winner" leadsTo="begin">
+          <description>When you defeat the dragon</description>
+            <media>
+              <image src="media/winner.png" leadsTo="begin" duration="8" backgroundColor="white">
+                 <overlay startTime="0" text="Congratulations! You have completed level 1!" textColor="black" alpha="0" hoverAlpha="0" x="200px" y="25px" width="1470px" height="100px" />
+                 <overlay startTime="0" text="Made by Anne van Gorkom and Jelmer Langbroek" textColor="black" alpha="0" hoverAlpha="0" x="200px" y="925px" width="1470px" height="100px" />
+              </image>
+            </media>
+        </subject>
+
+    </playlist>
+</ximpel>
